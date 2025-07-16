@@ -2,11 +2,10 @@ import {
   Instagram,
   Linkedin,
   Mail,
-  MapPin,
   Phone,
   Send,
-  Twitch,
   Twitter,
+  MapPin
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -45,7 +44,7 @@ export const ContactSection = () => {
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">
               {" "}
-              Contact Information
+              Contact Information - 08063979935 09137445701
             </h3>
 
             <div className="space-y-6 justify-center">
@@ -54,9 +53,9 @@ export const ContactSection = () => {
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
                 <div>
-                  <h4 className="font-medium"> Email</h4>
+                  <h4 className="font-medium"> Mail</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="aribilolanuoluwa@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     hello@gmail.com
@@ -70,10 +69,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:+234 08030000055"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                    +234 (08063979935)
                   </a>
                 </div>
               </div>
@@ -84,7 +83,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
+                    Lagos, Nigeria
                   </a>
                 </div>
               </div>
@@ -101,9 +100,6 @@ export const ContactSection = () => {
                 </a>
                 <a href="#" target="_blank">
                   <Instagram />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitch />
                 </a>
               </div>
             </div>
